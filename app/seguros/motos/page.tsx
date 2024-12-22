@@ -9,8 +9,8 @@ import { Shield, CheckCircle, Menu, X, Bike } from "lucide-react"
 import Image from "next/image"
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import InsuranceQuoteForm from '@/components/InsuranceQuoteForm'
-import FloatingWhatsAppButton from '@/components/floating-whatsapp-button'
+import InsuranceQuoteForm from '@/components/formilarioAutoMoto'
+import FloatingWhatsAppButton from '@/components/botonFlotanteWhatsapp'
 
 
 const segurosAuto = [

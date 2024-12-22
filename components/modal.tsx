@@ -30,10 +30,10 @@ export default function ServiceModal({ servicio, children }: ServiceModalProps) 
       { title: 'Ahorro e Inversión', href: '/seguros/ahorro' },
     ],
     gastosMedicos: [
-      { title: 'Seguro de Gastos Médicos Mayores', href: '/seguros/gastos-medicos-mayores' },
-      { title: 'Seguro de Accidentes Personales', href: '/seguros/accidentes-personales' },
-      { title: 'Seguro Dental', href: '/seguros/dental' },
-      { title: 'Seguro de Enfermedades Graves', href: '/seguros/enfermedades-graves' },
+      { title: 'Seguro de Gastos Médicos Mayores', href: '/seguros-medicos/gastos-medicos-mayores' },
+      { title: 'Seguro de Accidentes Personales', href: '/seguros-medicos/accidentes-personales' },
+      { title: 'Seguro Dental', href: '/seguros-medicos/dental' },
+      { title: 'Seguro de Enfermedades Graves', href: '/seguros-medicos/enfermedades-graves' },
     ],
     autoMoto: [
       { title: 'Seguro de Auto y Camioneta', href: '/seguros/auto' },
@@ -45,12 +45,14 @@ export default function ServiceModal({ servicio, children }: ServiceModalProps) 
       { title: 'Seguro de Camiones, Tractocamiones y vehículos de mensajería y reparto', href: '/seguros/camiones' },
       { title: 'Seguro de Motos', href: '/seguros/motos' },
     ],
-    hogar: [
-      { title: 'Seguro de Casa Habitación', href: '/seguros/casa-habitacion' },
-      { title: 'Seguro de Contenidos', href: '/seguros/contenidos' },
-      { title: 'Seguro contra Desastres Naturales', href: '/seguros/desastres-naturales' },
-      { title: 'Seguro de Responsabilidad Civil Familiar', href: '/seguros/responsabilidad-civil-familiar' },
-    ],
+     hogar: [
+      { title: 'Mis dispositivos', href: '/seguros-hogar/mis-dispositivos' },
+      { title: 'Mi mascota', href: '/seguros-hogar/mi-mascota' },
+      { title: 'Seguro de Hogar', href: '/seguros-hogar/seguro-hogar' },
+      { title: 'Multidispositivos', href: '/seguros-hogar/multidispositivos' },
+      { title: 'Riesgos Naturales - Huracán', href: '/seguros-hogar/riesgos-naturales-huracan' },
+      { title: 'Condominios - Áreas comunes', href: '/seguros-hogar/condominios-areas-comunes' },
+    ]
   } as const
 
   // Safely get links for the current category

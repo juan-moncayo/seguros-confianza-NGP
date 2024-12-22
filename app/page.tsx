@@ -6,10 +6,10 @@ import { Card, CardContent } from "@/components/ui/card"
 import { ChevronLeft, ChevronRight, Car, Home, Shield, Stethoscope, Phone, Mail, MapPin, Star, CheckCircle, Linkedin, Facebook, MessageCircle, Menu, X } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import AppointmentSection from '@/components/appointment-section'
-import TestimonialsSection from '@/components/testimonials-section'
-import FloatingWhatsAppButton from '@/components/floating-whatsapp-button'
-import ServiceModal, { ServicioType } from '@/components/service-modal'
+import AppointmentSection from '@/components/formularioCita'
+import TestimonialsSection from '@/components/testimonios'
+import FloatingWhatsAppButton from '@/components/botonFlotanteWhatsapp'
+import ServiceModal, { ServicioType } from '@/components/modal'
 
 const servicios: ServicioType[] = [
   {
